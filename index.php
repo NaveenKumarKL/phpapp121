@@ -15,6 +15,7 @@
 
     <!-- css link -->
     <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
     <title>myworld</title>
 </head>
 
