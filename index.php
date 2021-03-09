@@ -25,7 +25,7 @@
         <div id="carouselExampleControls" class="carousel slide lazy-load" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img data-src="images/sri lanka (1).png" src="images/sri lanka (1).png" class="d-block w-100" alt="..." class="lazy">
+                    <img data-src="https://images.unsplash.com/photo-1587526807462-74cf0f0f0a94?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" src="https://images.unsplash.com/photo-1587526807462-74cf0f0f0a94?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" src="images/sri lanka (1).png" class="d-block w-100" alt="..." class="lazy">
                 </div>
                 <div class="carousel-item">
                     <img data-src="https://images.unsplash.com/photo-1587526807462-74cf0f0f0a94?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" src="https://images.unsplash.com/photo-1587526807462-74cf0f0f0a94?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="..." class="lazy">
