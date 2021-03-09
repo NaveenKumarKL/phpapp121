@@ -1,0 +1,78 @@
+.main {
+  background: orange;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+.footers {
+  height: auto;
+  background: #3d3d3d;
+}
+
+.footers .row {
+  color: white;
+}
+
+.footers .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footers .list-group .list-group-item {
+  background: transparent;
+  padding: 5px 0px;
+  border: none;
+  color: #d1d1d1;
+}
+
+.footers .list-group-item:hover {
+  color: white;
+}
+
+.footers p {
+  color: #d1d1d1;
+}
+
+.footers .bi {
+  font-size: 23px;
+  padding: 0px 5px;
+  color: #b6b6b9;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footers .bi:hover {
+  color: white;
+  font-size: 18px;
+}
+
+.copyright {
+  background: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.copyright a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: #a1a1a1;
+}
+/*# sourceMappingURL=style.css.map */
