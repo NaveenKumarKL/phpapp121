@@ -16,7 +16,7 @@
     <!-- css link -->
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
-    <title>phpapp121</title>
+    <title>testapp</title>
 </head>
 
 <body>
