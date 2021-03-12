@@ -21,7 +21,7 @@
 
 <body>
 
-    <div class="preloader"></div>
+
     <Header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -38,7 +38,7 @@
                             <a class="nav-link" href="#">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about_us.php">About Us</a>
+                            <a class="nav-link" href="about_us.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact Us</a>

@@ -1,4 +1,4 @@
-<?php include "./src/components/header.php" ?>
+<?php include "header.php" ?>
 <div class="main">
     <div id="carouselExampleControls" class="carousel slide lazy-load" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -167,5 +167,5 @@
     </div>
 </section>
 <div>
-    <?php include "./src/components/footer.php" ?>
+    <?php include "footer.php" ?>
 </div>

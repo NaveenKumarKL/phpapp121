@@ -1,4 +1,4 @@
-<?php include "./src/components/header.php" ?>
+<?php include "./header.php" ?>
 
 <div class="container py-5">
     <div class="row">
@@ -57,5 +57,5 @@
 
 
 <div>
-    <?php include "./src/components/footer.php" ?>
+    <?php include "./footer.php" ?>
 </div>
