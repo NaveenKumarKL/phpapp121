@@ -1,0 +1,5 @@
+RewriteEngine on  
+  
+RewriteRule ^About  about_us.php [NC,L]
+RewriteRule ^CONTACT  contact.php [NC,L]
+RewriteRule ^PRODUCT  product.php [NC,L] 
