@@ -25,3 +25,8 @@ SetOutputFilter DEFLATE
     RewriteCond %{HTTPS} off
     RewriteCond %{HTTP:X-Forwarded-Proto} !https
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+    # Checks if the file is physically NOT present
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-z0-9-]+)+/([a-z0-9-]+)\.html$	/controller.php?partA=$1&partB=$2 [L]
