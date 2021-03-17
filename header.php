@@ -12,7 +12,7 @@ else ob_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap icon -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" media="print" onload="this.media='all'" crossorigin> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" media="print" onload="this.media='all'" crossorigin>
     <!-- Bootstrap CSS -->
     <link rel="preload" href="./css/bootstrap/css/bootstrap.min.css" as="style">
     <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
