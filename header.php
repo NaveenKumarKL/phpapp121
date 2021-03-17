@@ -16,7 +16,7 @@ else ob_start();
     <!-- Bootstrap CSS -->
     <link rel="preload" href="./css/bootstrap/css/bootstrap.min.css" as="style">
     <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
-    <link rel="preload" href="./css/bootstrap/js/bootstrap.min.js" as="script">
+    <!-- <link rel="preload" href="./css/bootstrap/js/bootstrap.min.js" as="script"> -->
 
     <!--google fonts-->
     <link rel="preload" href="./css/font.css" as="style">
