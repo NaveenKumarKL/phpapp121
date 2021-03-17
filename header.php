@@ -17,8 +17,7 @@ else ob_start();
     <link rel="preload" href="./css/bootstrap/css/bootstrap.min.css" as="style">
     <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
     <link rel="preload" href="./css/bootstrap/js/bootstrap.min.js" as="script">
-    <link rel="preload" href="https://code.jquery.com/jquery-3.5.1.slim.min.js" as="script">
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js" as="script">
+
     <!--google fonts-->
     <link rel="preload" href="./css/font.css" as="style">
     <link rel="stylesheet" href="./css/font.css">
