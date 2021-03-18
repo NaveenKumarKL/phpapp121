@@ -1,12 +1,17 @@
 * {
   font-family: "Roboto";
 }
+
+// home page
 .main {
   .carousel {
     height: 100%;
   }
   img {
     height: 600px;
+  }
+  .test {
+    color: red;
   }
 }
 
@@ -78,5 +83,69 @@ h1 {
   }
   a:hover {
     color: rgb(161, 161, 161);
+  }
+}
+
+// login page
+.login_form {
+  background: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logins {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  .card {
+    width: 450px;
+  }
+
+  input {
+    outline: none;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-bottom: 2px solid grey;
+    border-radius: 0px;
+    padding: 10px 0px;
+  }
+  input:focus {
+    background-color: transparent;
+    color: green;
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .icon {
+    font-size: 64px;
+    // color: grey;
+  }
+
+  ::placeholder {
+    color: rgb(110, 110, 110);
+  }
+  button {
+    margin: 0px auto;
+  }
+}
+
+// Register page
+.login_form {
+  .error_box {
+    display: flex;
+    justify-content: center;
+  }
+  .error_text {
+    display: none;
+    color: white;
+    background: red;
+    padding: 10px 20px;
+    position: absolute;
+    top: 20px;
+    border-radius: 20px;
   }
 }

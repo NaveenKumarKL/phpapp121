@@ -1,9 +1,17 @@
+* {
+  font-family: "Roboto";
+}
+
 .main .carousel {
   height: 100%;
 }
 
 .main img {
   height: 600px;
+}
+
+.main .test {
+  color: red;
 }
 
 .preloader {
@@ -94,5 +102,91 @@ h1 {
 
 .copyright a:hover {
   color: #a1a1a1;
+}
+
+.login_form {
+  background: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logins {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logins .card {
+  width: 450px;
+}
+
+.logins input {
+  outline: none;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 2px solid grey;
+  border-radius: 0px;
+  padding: 10px 0px;
+}
+
+.logins input:focus {
+  background-color: transparent;
+  color: green;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.logins .icon {
+  font-size: 64px;
+}
+
+.logins ::-webkit-input-placeholder {
+  color: #6e6e6e;
+}
+
+.logins :-ms-input-placeholder {
+  color: #6e6e6e;
+}
+
+.logins ::-ms-input-placeholder {
+  color: #6e6e6e;
+}
+
+.logins ::placeholder {
+  color: #6e6e6e;
+}
+
+.logins button {
+  margin: 0px auto;
+}
+
+.login_form .error_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login_form .error_text {
+  display: none;
+  color: white;
+  background: red;
+  padding: 10px 20px;
+  position: absolute;
+  top: 20px;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=style.css.map */

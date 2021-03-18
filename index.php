@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-
+<?php include "navbar.php" ?>
 <div class="main">
     <div id="carouselExampleControls" class="carousel slide lazy-load" data-bs-ride="carousel">
         <div class="carousel-inner">
